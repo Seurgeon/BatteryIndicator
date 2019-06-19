@@ -68,7 +68,7 @@ namespace BatteryIndicator
                 {
                     notifyIcon.Text = $"{hrLeft} hr";
                 }
-                notifyIcon.Text += $"{minLeft} min";
+                notifyIcon.Text += $" {minLeft} min";
             }
             catch
             {
